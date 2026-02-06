@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
+import TeamImage from './components/TeamImage';
 import Services from './components/Services';
 import Certificate from './components/Certificate';
 import Trust from './components/Trust';
@@ -43,6 +44,7 @@ const App: React.FC = () => {
       <main className="flex-grow" role="main">
         <Hero />
         <About />
+        <TeamImage />
         <Services />
         <Certificate />
         <Trust />

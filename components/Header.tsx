@@ -53,13 +53,13 @@ const Header: React.FC = () => {
           </svg>
         </button>
 
-        <a href="#" className="flex items-center group ml-auto" aria-label="Zur Startseite">
+        <a href="#" className="flex items-center group ml-auto mt-2" aria-label="Zur Startseite">
           <div className="relative">
             <div className="absolute inset-0 rounded-full bg-brand/20 blur-lg opacity-70 group-hover:opacity-100 transition"></div>
             <img
               src={`${baseUrl}images/logo.webp`}
               alt="Bestattungen Dörr Logo"
-              className="relative w-12 h-12 md:w-14 md:h-14 object-contain rounded-full bg-white p-1.5 shadow-md ring-1 ring-gray-200"
+              className="relative w-[4.5rem] h-[4.5rem] md:w-20 md:h-20 object-contain rounded-full bg-white p-1.5 shadow-md ring-1 ring-gray-200"
               loading="eager"
             />
           </div>
